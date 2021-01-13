@@ -1,0 +1,103 @@
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+ul {
+list-style-type: none;
+}
+
+.contenue {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.plus{
+  background-color: #f1f1f1;
+}
+
+/*************************
+**********Gauche**********
+**************************/
+
+.gauche {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.maire {
+  background-image: url(../images/maire.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+
+.New3 {
+  background-image: url(../images/flash3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+
+.pub{
+  background-color: #ffca00;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#btn-buy{
+  background-color: #fff;
+  color: #000;
+}
+
+/*************************
+**********Droite**********
+**************************/
+
+.droite {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.New1 {
+  background-image: url(../images/flash1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  height:200px
+}
+
+.New2 {
+  background-image: url(../images/flash2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  height:200px
+}
+
+.New4 {
+  background-image: url(../images/flash4.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
+
+.New5 {
+  background-image: url(../images/flash5.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  height:200px;
+}
